@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: lightslategray;
+    height: 100px;
+    
+}
+.logo{
+    background-image: url(../images/logo-QuizzSA.png);
+    background-size: 50px;
+    height: 90px;
+    width: 5%;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+}
+.content{
+    background-image: url(../images/img-bg.jpg);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+.header-text p{
+   color: white;
+   text-align: center;
+   margin-top: -60px;
+   font-size: 40px;
+}
+.contenair{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    height: 65%;
+    width: 40%;
+    background-color: white;
+}
+.contenair-header{
+    background-color: skyblue;
+    height: 30%;
+    width: 100%;
+}
+.title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+    background-image: url(../icones/);
+}
+.input-form{
+    margin: 25px 30px 25px;
+}
+.form-control{
+    height: 40px;
+    width: 95%;
+    color: silver;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+.error-form{
+    color: red;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.icon-form{
+    background-image: url(../icones/ic-login.png);
+    height: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 92%;
+    top: 40px;
+
+}
+.pass-form{
+    background-image: url(../icones/ic-pass.jpg);
+    height: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 92%;
+    top: 40px;
+
+}
+.btn-form{
+    background-color: skyblue;
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+
+}
+.link-form{
+    margin-left: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
